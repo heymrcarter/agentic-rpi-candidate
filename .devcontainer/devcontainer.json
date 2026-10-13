@@ -1,0 +1,32 @@
+{
+  "name": "LRU cache pairing exercise",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+  "postCreateCommand": "npm ci --no-audit --no-fund",
+  "hostRequirements": {
+    "cpus": 2
+  },
+  "customizations": {
+    "codespaces": {
+      "openFiles": ["README.md"]
+    },
+    "vscode": {
+      "extensions": [
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "vitest.explorer"
+      ],
+      "settings": {
+        "chat.useAgentsMdFile": true,
+        "github.copilot.chat.codeGeneration.useInstructionFiles": true,
+        "chat.tools.terminal.autoApprove": {
+          "npm test": true,
+          "npm run warmup": true,
+          "npm run typecheck": true,
+          "npx vitest": true,
+          "npm install": false,
+          "git push": false
+        }
+      }
+    }
+  }
+}

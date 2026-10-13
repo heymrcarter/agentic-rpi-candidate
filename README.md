@@ -1,5 +1,12 @@
 # Pairing exercise: the agent-drafted LRU cache
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/heymrcarter/agentic-rpi-candidate?quickstart=1)
+
+Click the button above to get a ready-to-go environment with everything
+installed and GitHub Copilot as your coding agent. Sign in with your GitHub
+account when asked. Open Copilot Chat in agent mode from the chat icon in the
+title bar.
+
 Welcome. For the next 45 minutes you'll pair with your interviewer on a small
 piece of real-feeling work. There are no trick questions and no brain teasers.
 We're not measuring how fast you type. We want to see how you think, how you
