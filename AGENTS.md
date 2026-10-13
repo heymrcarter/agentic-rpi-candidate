@@ -14,6 +14,7 @@ This is a small TypeScript library with a Vitest test suite.
   unless the developer asks to change it.
 - Tests live in `test/` and use Vitest (`describe` / `it` / `expect`).
 - Do not add runtime or dev dependencies.
+- Don't fetch web pages or search the web; work from the code and the spec.
 - After changing code, run the relevant tests and report the actual result.
 - Keep changes small and focused on what the developer asked for. If you
   notice an unrelated problem, mention it rather than fixing it unasked.
